@@ -9,7 +9,7 @@ def main():
     # 這會在 ClearML 後台建立一個名為 "1. 資料取得" 的任務
     # ==========================================
     task = Task.init(project_name="Titanic_MLOps_Project", task_name="1. 資料取得")
-
+    task.set_base_docker("python:3.9-slim")
     # 集中管理參數 (這些參數會自動顯示在 ClearML 後台，且可被遠端修改)
     args = {
         "competition_name": "titanic",
