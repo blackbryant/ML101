@@ -1,0 +1,8 @@
+# 核心資料處理
+pandas
+
+# Kaggle API 工具 (用於下載資料集)
+kaggle
+
+# ClearML MLOps 平台 SDK (用於實驗追蹤與資料集版本控制)
+clearml
